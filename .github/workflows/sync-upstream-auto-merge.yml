@@ -1,8 +1,8 @@
 name: 自动同步上游并自动合并(无冲突)+触发CF部署
 on:
-  schedule:
-    - cron: '0 0 * * *' # UTC 0点，北京时间早上8点定时检查
-  workflow_dispatch: # 支持手动点按钮立刻执行
+ # schedule:
+  #  - cron: '0 0 * * *' # UTC 0点，北京时间早上8点定时检查
+# workflow_dispatch: # 支持手动点按钮立刻执行
 
 jobs:
   sync:
